@@ -13,6 +13,9 @@
     <!-- Styles -->
     @vite('resources/js/app.js')
 
+    {{-- FontAwesome --}}
+    <script src="https://kit.fontawesome.com/f845cc90f8.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>

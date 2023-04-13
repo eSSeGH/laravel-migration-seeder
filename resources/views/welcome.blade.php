@@ -14,8 +14,8 @@
                     <span>ORARIO DI ARRIVO:<br>{{ $train->orario_di_arrivo}}</span>
                     <span>CODICE: <br>{{ $train->codice_treno}}</span>
                     <span>NUMERO CARROZZE: <br>{{ $train->numero_carrozze}}</span>
-                    <span>IL TRENO è IN ORARIO?:<br>{{ $train->in_orario ? 'Si' : 'No'}}</span>
-                    <span>IL TRENO è STATO CANCELLATO?: <br>{{ $train->cancellato  ? 'Si' : 'No'}}</span>
+                    <span>IL TRENO è IN ORARIO?:<br>{{ $train->in_orario ? 'Sì' : 'No'}}</span>
+                    <span>IL TRENO è STATO CANCELLATO?: <br>{{ $train->cancellato  ? 'Sì' : 'No'}}</span>
                 </div>
 
             @empty
